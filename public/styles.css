@@ -1,0 +1,131 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --background: #0D0D0D;
+    --purple: #5833A6;
+    --light-purple: #8679D9;
+    --dark-blue: #2E3D59;
+    --azul-escuro: #00747C;
+
+
+}
+
+body{
+    font-size: 100%;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background)
+}
+
+header{
+    background-color: var(--purple);
+}
+
+h1{
+    text-align: center;
+    color: #ffff;
+}
+
+
+#issMapSection{
+    padding: 20px;
+}
+
+#issMap{
+    width: 51%;
+    height: 70vh;
+
+    display: block;
+    margin: 0 auto;
+}
+
+#issInfoSection {
+    display: block;
+    margin: 0 25%;
+    padding: 20px;
+    background-color: var(--light-purple);
+    color: #ffff;
+
+    border-radius: 15px; 
+    box-shadow: 0px 5px 15px 5px #141A26;
+}
+
+#desc{
+    margin: 0 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+#issInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+
+p.info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+
+    text-align: center;
+    
+    border: 2.5px solid #2E3D59;
+    border-radius: 10px;
+
+    font-size: large;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    #issMap {
+        width: 90%;
+        height: 60vh;
+
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #issInfoSection {
+        display: block;
+        margin: 0 50px;
+        padding: 20px;
+        background-color: var(--light-purple);
+        color: #ffff;
+    
+        border-radius: 15px; 
+        box-shadow: 0px 5px 15px 5px #141A26;
+    }
+    
+    #desc{
+        font-size: small;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    #issInfo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+    
+    p.info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        border: 2.5px solid #2E3D59;
+        border-radius: 10px;
+        
+        font-size: medium;
+    }
+}
