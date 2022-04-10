@@ -8,13 +8,13 @@ tiles.addTo(myMap);
 
 // Fazendo um icone
 const issIcon = L.icon({
-  iconUrl: "assets\img.png",
+  iconUrl: "img.png",
   iconSize: [50, 32],
   iconAnchor: [25, 16],
 });
 
 const issZoomedIcon = L.icon({
-  iconUrl: "assets\img.png",
+  iconUrl: "img.png",
   iconSize: [100, 64],
   iconAnchor: [50, 32],
 });
